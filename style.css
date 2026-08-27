@@ -11,7 +11,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: rgb(0, 217, 255);
+    color: white;
 }
 
 header{
@@ -21,19 +21,15 @@ width: 100%;
 padding: 80px;
 }
 .cabecalho-itens{
-      max-width: 1980px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Espalha os 3 blocos: esquerda, meio e direita */
-    padding: 20px 40px; /* Dá espaçamento interno nas laterais e topo */
-    width: 100%;
-    box-sizing: border-box;
+max-width: 1980px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
 }
-
-.cabecalho-imagem{
-    width: 120px;
-    height: 120px;
+.cabecalho_imagem{
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid gold;
@@ -42,7 +38,7 @@ padding: 80px;
 }
 
 .titulo_site{
-    padding: 120px;
+    padding: 50px;
     text-align: center;
     width: 50%;
     font: 60px;
@@ -58,7 +54,10 @@ padding: 80px;
     filter: drop-shadow(0 0 10px gold);
 }
 
-
+.banner1{
+display: flex;
+justify-content: center;
+}
 .estudante_titulo{
     padding: 50px;
     text-align: center;
@@ -113,6 +112,15 @@ padding: 12px 0;
 
 }
 
+.link{
+color: #ffaa00;
+text-decoration: none;
+}.estudantes_todos{
+    display: flex;
+    justify-content: align-items;
+    gap: 40px;
+    flex-wrap: wrap;
+}
 
 .estudante-div{
     text-align: center;
@@ -121,12 +129,12 @@ body{
     color: rgb(255, 208, 0);
 }
 .escola{
-    color: rgb(14, 11, 204);
+    color: rgb(177, 177, 177);
 }
 .sobre{
     text-align: center;
     padding: 50px;
-    color: rgb(230, 255, 10);
+    color: white;
 }
 
 .sobre h2{
@@ -142,4 +150,291 @@ body{
 }.cabecalho_imagem:hover{
     transform: translateY(-15px) scale(1.05);
     box-shadow: 0 15px 30px rgba(255, 215, 0, 0.6);
+}.video {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.video {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.video h2 {
+    margin-bottom: 20px;
+}
+
+.video iframe {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 15px;
+}nav {
+    background-color: #3d00a0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 18px 25px;
+    font-family: Arial, sans-serif;
+    transition: 0.3s;
+}
+
+nav li a:hover {
+    background-color: #ffd900;
+    color: #000;
+}
+/* TÍTULO DOS CERTIFICADOS */
+
+main > h1 {
+    text-align: center;
+    margin: 40px 0 30px;
+}
+
+
+/* ÁREA DOS CERTIFICADOS */
+
+.certificados {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+/* CADA CERTIFICADO */
+
+.certificado {
+    width: 450px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+
+/* EFEITO AO PASSAR O MOUSE */
+
+.certificado:hover {
+    transform: translateY(-10px);
+}
+
+
+/* IMAGEM DO CERTIFICADO */
+
+.certificado img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* TÍTULO */
+
+.certificado h2 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+
+/* TEXTO */
+
+.certificado p {
+    font-size: 16px;
+}main > h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0 30px;
+}
+.pagina-social {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.pagina-social h1 {
+    text-transform: uppercase;
+    color: #ffd900;
+    margin-bottom: 20px;
+}
+
+.pagina-social p {
+    text-align: center;
+    color: white;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.redes a {
+    width: 180px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.redes a:hover {
+    transform: translateY(-10px);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.redes img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
+
+.redes span {
+    display: block;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}.pagina-contato {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.pagina-contato h1 {
+    color: #ffd900;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.pagina-contato p {
+    color: white;
+}
+
+.formulario {
+    width: 500px;
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario label {
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.formulario input,
+.formulario textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.formulario textarea {
+    resize: vertical;
+}
+
+.formulario button {
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffd900;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.formulario button:hover {
+    background-color: white;
+    transform: scale(1.03);
+}
+
+.pagina-sobre {
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.pagina-sobre > h1 {
+    color: #ffd900;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.sobre-conteudo {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.foto-sobre {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ffd900;
+
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Animação da foto */
+
+.foto-sobre:hover {
+    transform: translateY(-15px) scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.texto-sobre {
+    max-width: 650px;
+    text-align: left;
+    color: white;
+}
+
+.texto-sobre h2 {
+    color: #ffd900;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.texto-sobre h2:first-child {
+    margin-top: 0;
+}
+
+.texto-sobre p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 15px;
 }
