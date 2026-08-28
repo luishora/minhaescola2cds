@@ -11,7 +11,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: white;
+    color: rgb(21, 0, 76);
 }
 
 header{
@@ -134,7 +134,7 @@ body{
 .sobre{
     text-align: center;
     padding: 50px;
-    color: white;
+    color: rgb(6, 196, 225);
 }
 
 .sobre h2{
